@@ -52,18 +52,22 @@ $macchiato-crust: #181926;
 
 #body {
   font-family: UbuntuSansMono Nerd Font Mono;
-  font-size: 12pt;
+  font-size: 18pt;
   color: $macchiato-text;
 }
 
 #footer {
-  font-size: 7pt;
+  font-size: 10pt;
 }
 
 #navbar {
-  font-size: 8pt;
+  font-size: 12pt;
 }
 
 .link {
   color: $macchiato-teal;
+}
+
+.dropdown-item {
+  font-size: 10pt;
 }
