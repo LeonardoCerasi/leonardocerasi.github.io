@@ -175,13 +175,13 @@
   --bs-form-invalid-border-color: rgb(234, 133.8, 143.4);
 }
 
-body {
+#body {
   font-family: UbuntuSansMono Nerd Font Mono;
   font-size: 18pt;
   color: #cad3f5;
 }
 
-footer {
+#footer {
   font-size: 10pt;
 }
 

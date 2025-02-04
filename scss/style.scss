@@ -50,13 +50,13 @@ $macchiato-crust: #181926;
 
 // @import "../node_modules/bootstrap/scss/utilities/api";
 
-body {
+#body {
   font-family: UbuntuSansMono Nerd Font Mono;
   font-size: 18pt;
   color: $macchiato-text;
 }
 
-footer {
+#footer {
   font-size: 10pt;
 }
 
