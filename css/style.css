@@ -177,16 +177,16 @@
 
 #body {
   font-family: UbuntuSansMono Nerd Font Mono;
-  font-size: 18pt;
+  font-size: 12pt;
   color: #cad3f5;
 }
 
 #footer {
-  font-size: 10pt;
+  font-size: 7pt;
 }
 
 #navbar {
-  font-size: 12pt;
+  font-size: 8pt;
 }
 
 .link {
