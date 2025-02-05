@@ -68,6 +68,32 @@ $macchiato-crust: #181926;
   color: $macchiato-teal;
 }
 
+#current-page {
+  color: $macchiato-rosewater;
+}
+
+#contact {
+  color: $macchiato-sapphire;
+}
+
 .dropdown-item {
   font-size: 10pt;
+}
+
+.heading {
+  color: $macchiato-blue;
+}
+
+#button {
+  color: $macchiato-crust;
+  background-color: $macchiato-pink;
+  border-color: $macchiato-crust;
+}
+
+.card-title {
+  font-size: 18pt;
+}
+
+.card-text {
+  font-size: 14pt;
 }

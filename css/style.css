@@ -193,8 +193,34 @@
   color: #8bd5ca;
 }
 
+#current-page {
+  color: #f4dbd6;
+}
+
+#contact {
+  color: #7dc4e4;
+}
+
 .dropdown-item {
   font-size: 10pt;
+}
+
+.heading {
+  color: #8aadf4;
+}
+
+#button {
+  color: #181926;
+  background-color: #f5bde6;
+  border-color: #181926;
+}
+
+.card-title {
+  font-size: 18pt;
+}
+
+.card-text {
+  font-size: 14pt;
 }
 
 /*# sourceMappingURL=style.css.map */
