@@ -26,6 +26,22 @@ $macchiato-base: #24273a;
 $macchiato-mantle: #1e2030;
 $macchiato-crust: #181926;
 
+// Ubuntu Sans Mono Nerd Font Mono
+@font-face {
+  font-family: 'USMNFM';
+  src: url('../font/UbuntuSans/UbuntuSansMonoNerdFontMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Ubuntu Sans Mono Nerd Font Mono Bold
+@font-face {
+  font-family: 'USMNFM-B';
+  src: url('../font/UbuntuSans/UbuntuSansMonoNerdFontMono-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import "../node_modules/bootstrap/scss/functions";
 
 // default variable overrides
@@ -51,7 +67,7 @@ $macchiato-crust: #181926;
 // @import "../node_modules/bootstrap/scss/utilities/api";
 
 #body {
-  font-family: UbuntuSansMono Nerd Font Mono;
+  font-family: 'USMNFM';
   font-size: 18pt;
   color: $macchiato-text;
 }
@@ -69,8 +85,8 @@ $macchiato-crust: #181926;
 }
 
 #current-page {
+  font-family: 'USMNFM-B';
   color: $macchiato-rosewater;
-  font-weight: bold;
 }
 
 #contact {
@@ -82,10 +98,12 @@ $macchiato-crust: #181926;
 }
 
 .heading1 {
+  font-family: 'USMNFM-B';
   color: $macchiato-blue;
 }
 
 .heading3 {
+  font-family: 'USMNFM-B';
   color: $macchiato-green;
 }
 
@@ -96,6 +114,7 @@ $macchiato-crust: #181926;
 }
 
 .card-title {
+  font-weight: bold;
   color: $macchiato-mauve;
   font-size: 18pt;
 }

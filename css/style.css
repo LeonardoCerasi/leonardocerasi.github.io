@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "USMNFM";
+  src: url("../font/UbuntuSans/UbuntuSansMonoNerdFontMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "USMNFM-B";
+  src: url("../font/UbuntuSans/UbuntuSansMonoNerdFontMono-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -176,7 +188,7 @@
 }
 
 #body {
-  font-family: UbuntuSansMono Nerd Font Mono;
+  font-family: "USMNFM";
   font-size: 18pt;
   color: #cad3f5;
 }
@@ -194,8 +206,8 @@
 }
 
 #current-page {
+  font-family: "USMNFM-B";
   color: #f4dbd6;
-  font-weight: bold;
 }
 
 #contact {
@@ -207,10 +219,12 @@
 }
 
 .heading1 {
+  font-family: "USMNFM-B";
   color: #8aadf4;
 }
 
 .heading3 {
+  font-family: "USMNFM-B";
   color: #a6da95;
 }
 
@@ -221,6 +235,7 @@
 }
 
 .card-title {
+  font-weight: bold;
   color: #c6a0f6;
   font-size: 18pt;
 }
