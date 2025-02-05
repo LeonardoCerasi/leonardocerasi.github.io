@@ -195,6 +195,7 @@
 
 #current-page {
   color: #f4dbd6;
+  font-weight: bold;
 }
 
 #contact {
@@ -205,8 +206,12 @@
   font-size: 10pt;
 }
 
-.heading {
+.heading1 {
   color: #8aadf4;
+}
+
+.heading3 {
+  color: #a6da95;
 }
 
 #button {
@@ -216,6 +221,7 @@
 }
 
 .card-title {
+  color: #c6a0f6;
   font-size: 18pt;
 }
 

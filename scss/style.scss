@@ -70,6 +70,7 @@ $macchiato-crust: #181926;
 
 #current-page {
   color: $macchiato-rosewater;
+  font-weight: bold;
 }
 
 #contact {
@@ -80,8 +81,12 @@ $macchiato-crust: #181926;
   font-size: 10pt;
 }
 
-.heading {
+.heading1 {
   color: $macchiato-blue;
+}
+
+.heading3 {
+  color: $macchiato-green;
 }
 
 #button {
@@ -91,6 +96,7 @@ $macchiato-crust: #181926;
 }
 
 .card-title {
+  color: $macchiato-mauve;
   font-size: 18pt;
 }
 
