@@ -205,6 +205,10 @@
   color: #8bd5ca;
 }
 
+.file {
+  color: #ed8796;
+}
+
 #current-page {
   font-family: "USMNFM-B";
   color: #f4dbd6;
@@ -241,7 +245,18 @@
 }
 
 .card-text {
-  font-size: 14pt;
+  font-size: 12pt;
+}
+
+.paragraph {
+  text-align: justify;
+  font-size: 16pt;
+}
+
+.article-title {
+  font-styile: italic;
+  font-weight: bold;
+  color: #a6da95;
 }
 
 /*# sourceMappingURL=style.css.map */

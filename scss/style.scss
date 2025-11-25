@@ -84,6 +84,10 @@ $macchiato-crust: #181926;
   color: $macchiato-teal;
 }
 
+.file {
+  color: $macchiato-red;
+}
+
 #current-page {
   font-family: 'USMNFM-B';
   color: $macchiato-rosewater;
@@ -120,5 +124,16 @@ $macchiato-crust: #181926;
 }
 
 .card-text {
-  font-size: 14pt;
+  font-size: 12pt;
+}
+
+.paragraph {
+  text-align: justify;
+  font-size: 16pt;
+}
+
+.article-title {
+  font-styile: italic;
+  font-weight: bold;
+  color: $macchiato-green;
 }
